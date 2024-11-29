@@ -1,10 +1,23 @@
 # Sale & Shipment Analysis - Power BI
-Abstract
-The Marketing Campaign Dashboard visualizes key insights to provide a comprehensive overview of campaign performance in Power BI, leveraging a dataset sourced from marketing_campaign.csv. It provides a centralized hub for dissecting and optimizing the performance of marketing campaigns, enabling data-driven decision-making and helping businesses maximize their marketing ROI.
+## Abstract
+This dashboard visualizes key insights to provide a comprehensive overview of sales & shipment performance in Power BI, leveraging a dataset sourced from [HERE](https://drive.google.com/drive/folders/1sNHbkw6k1TcuiePujyqh3pWCCi9CXa9c?usp=drive_link). It provides a centralized hub for dissecting and optimizing the performance of marketing campaigns, enabling data-driven decision-making and helping businesses maximize their marketing ROI.
 
-Make better decisions by getting a 360° view of your shipment performance. This dashboard can help you monitor, analyze and understand the monthly, quarterly, and semi-annual performance of a shipper. Using this dashboard, you can know the shipment performance across regions, get an overview of the shipment delay, and understand the important customers better.
+view of your shipment performance. This dashboard can help you monitor, analyze and understand 
+the monthly, quarterly, and semi-annual performance of a shipper. 
+Using this dashboard, you can know the shipment performance across regions, get an overview of the shipment delay, and understand the important customers better.
+Check how your company is performing in different years by condensing multiple datasets into one, holistic dashboard.
+Deep-dive into each product category for further analysis, simply by clicking on each column.
+Monitor employee performance & progress by YoY reports for top-performing sales executives, plotted by both revenue earned and items sold.
+Analyze each sales location individually with our maps that reveal deeper insights on clicking, including sub-regions/cities and top regional customers.
 
-Data Manipulation
+View sales performance
+
+now view  region-wise performance 
+
+Analyze how a product is performing in terms of revenue generated and total units sold
+Map your investments in inventory and workforces to real-world outcomes, and improve decision-making
+
+## Data Manipulation
 Prior to analysis, I imported the dataset into Power BI and transformed it on Power Query Editor. Here are the step-by-step manipulations done on the source datasets:
 
 Step 1: Creation of Product & Amount Spend Column
@@ -16,7 +29,8 @@ Then, I used the Replace Values function to make the “Campaign” column more 
 Step 3: Creation of Purchase and Number of Purchase Column
 Likewise, I used the Unpivot Columns feature to transform "NumWebPurchases" column, "NumCatalogPurchases" column, "NumStorePurchases" column, "NumDealsPurchases" column into "Purchase" and "Number of Purchase" column.
 Then, I used the Column from examples function to make the “Purchase” column more readable.
-Data Visualization
+
+## Data Visualization
 Visual representation of data offers intuitive insights. The following visuals will be incorporated in the report:
 
 Cards
