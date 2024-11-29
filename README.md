@@ -32,4 +32,11 @@ Representing the date time.
 ### Parameters
 Add parameters for Max % of Overdue shipments and Max Shipment Duration Target with slicers.
 
+## 4. Dashboard
+### Sale Analysis
+![](https://github.com/Dechannie689/Sale-Shipment-Analysis/blob/main/Sale%20Analysis.png)
+
+### Shipment Analysis
+![](https://github.com/Dechannie689/Sale-Shipment-Analysis/blob/main/Shipment%20Analysis.png)
+
 Gratitude for your time!
